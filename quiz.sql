@@ -195,8 +195,6 @@ DROP TABLE IF EXISTS `take_answer`;
 CREATE TABLE `take_answer` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `takeId` bigint(20) NOT NULL,
-  `questionId` bigint(20) NOT NULL,
-  `answerId` bigint(20) NOT NULL,
   `active` tinyint(1) NOT NULL DEFAULT '0',
   `createdAt` datetime NOT NULL,
   `updatedAt` datetime DEFAULT NULL,
